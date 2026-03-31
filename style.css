@@ -114,7 +114,7 @@ span {
       gap: 9px;
 }
 
-.link_icon{
+.link_icon {
       color: #151515;
 }
 
@@ -230,9 +230,10 @@ span {
 
 
 
-.book_link{
+.book_link {
       color: #FFFFFF;
 }
+
 .private_jet {
       width: 1440px;
       height: 1215px;
@@ -328,9 +329,6 @@ span {
       width: 500px;
 }
 
-.section3 {
-      height: 700px;
-}
 
 .air_text {
       font-size: 36px;
@@ -351,7 +349,7 @@ span {
 .air_cards {
       border: 4px solid #FFFFFF;
       border-radius: 12px;
-      box-shadow: 5px 5px 10px 10px  #130A2E21;
+      box-shadow: 5px 5px 10px 10px #130A2E21;
       width: 370px;
       height: 268px;
       padding-top: 40px;
@@ -359,7 +357,7 @@ span {
       transition: all 0.5s ease-in-out;
 }
 
-.air_cards:hover{
+.air_cards:hover {
       transform: scale(1.1);
 }
 
@@ -384,18 +382,60 @@ span {
       height: 328px;
       font-size: 20px;
       transform: translateY(-450px)
-      
 }
 
-.air_card_plane{
+.air_card_plane {
+      width: 0;
       transform: translateX(430px);
       transition: all 1s ease-in-out;
 }
 
-.air_card_plane:hover{
+.air_card_plane:hover {
       transform: skew(1.1);
 }
 
-.air_cards2{
+.air_cards2 {
       transform: translateX(350px);
+}
+
+.section4 {
+      transform: translateY(-150px);
+}
+
+.luxry_text {
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      color: #000000;
+}
+
+.luxry_card{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      
+      transform: translateY(80px);
+}
+
+.luxury_cards{
+      border: 1px solid #FFFFFF;
+      border-radius: 12px;
+      box-shadow: 2px 2px 2px 2px #130A2E21;
+      padding: 10px 12px;
+      width: 255px;
+}
+
+.luxr_img {
+      width: 230px;
+      height: 189px;
+      border-radius: 10px; 
+
+}
+
+.luxry_para{
+      font-size: 16px;
+      padding-top: 10px;
+      text-align: center;
+      font-weight: 400;
+      color: #151515;
 }
