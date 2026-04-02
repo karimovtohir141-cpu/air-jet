@@ -114,6 +114,10 @@ span {
       gap: 9px;
 }
 
+.show_img{
+      filter: blur(blur);
+}
+
 .link_icon {
       color: #151515;
 }
