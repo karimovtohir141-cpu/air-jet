@@ -7,6 +7,14 @@
       font-family: "Poppins", sans-serif;
 }
 
+html{
+      scroll-behavior: smooth;
+}
+
+main{
+      margin-bottom: 218px;
+}
+
 .header {
       background-image: url(./img/wing-airplane-with-city-background\ 1.png);
       background-repeat: no-repeat;
@@ -114,9 +122,6 @@ span {
       gap: 9px;
 }
 
-.show_img{
-      filter: blur(blur);
-}
 
 .link_icon {
       color: #151515;
@@ -301,8 +306,6 @@ span {
 
 .private_img4 {
       margin-left: 100px;
-      width: 400px;
-      height: 523px;
 
 }
 
@@ -442,4 +445,153 @@ span {
       text-align: center;
       font-weight: 400;
       color: #151515;
+}
+
+.Membership{
+      width: 1232px;
+      height: 732px;
+      margin: 0 auto;
+}
+
+.membership_text{
+      font-size: 36px;
+      font-weight: 700;
+      color: #000000;
+      text-align: center;
+      padding-top: 8px;
+      margin-bottom: 105px;
+}
+
+.Membership_card{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      border: 1px solid white;
+}
+
+.Membership_cards{
+       width: 33%;
+      border-radius:20px ;
+      background-color: #F5F5F5;
+}
+
+.membership_card2{
+      transform: translateY(-40px);
+}
+
+.Membership_cards_text{
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      color: #151515;
+      padding: 24px 24px;
+}
+
+
+
+.membership_p{
+      font-size: 22px;
+      font-weight: 400;
+      color: #A9A9AA;
+      padding-left: 24px;
+}
+
+
+.membership_icon{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding-top: 24px;
+      padding-left: 24px;
+}
+
+
+
+.membership_para{
+      font-size: 16px;
+      font-weight: 400;
+      color: #151515;
+}
+
+.membership_img{
+      transform: translateX(24px)
+}
+
+.membership_para2{
+      font-size: 32px;
+      font-weight: 700;
+      color: #161616;
+      padding-top: 65px;
+      padding-left: 24px;
+      margin-bottom: 24px;
+}
+
+.membership_span{
+      font-size: 16px;
+      font-weight: 400;
+      color: #161616;
+      
+}
+
+
+.membership_button{
+      width: 352px;
+      height: 64px;
+      border: 1px solid #FFFFFF;
+      background-color: #656293;
+      border-radius: 12px;
+      transform: translateX(24px);
+      margin-bottom: 24px;
+}
+
+
+.membership_link{
+      font-size: 22px;
+      font-weight: 600;
+      color: #FFFFFF;
+}
+
+
+.footer{
+      height: 200px;
+      background-color: #656293;
+}
+
+.footer_card{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: end;
+}
+
+.footer_list{
+      display: flex;
+      gap: 21px;
+      transform: translateY(155px);
+}
+
+.footer_link{
+      font-size: 14px;
+      font-weight: 400px;
+      color: #FFFFFFB2;
+}
+
+.dvi2{
+      width: 1130px;
+      transform: translateY(100px);
+      position: absolute;
+      left: 165px;
+      border: 1px solid #FFFFFF33;
+}
+
+.footer_img{
+      transform: translateY(60px);
+}
+
+.footer_p{
+      font-size: 14px;
+      font-weight: 400;
+      transform: translateY(155px);
+      color: #FFFFFFB2;
 }
